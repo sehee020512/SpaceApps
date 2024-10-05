@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+
+#displayImage {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+#imageSelector {
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+    background-color: white;
+}
